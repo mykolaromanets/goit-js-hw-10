@@ -32,8 +32,7 @@ ul {
 .country-list {
   display: flex;
   flex-direction: column;
-  max-width: 620px;
-  gap: 10px;
+  max-width: 520px;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -46,9 +45,8 @@ ul {
   align-items: center;
   justify-content: space-between;
 
-  border: 1px solid transparent;
   padding-top: 20px;
-  border-radius: 20px;
+
   max-width: 520px;
   margin-left: auto;
   margin-right: auto;
