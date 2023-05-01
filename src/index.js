@@ -76,7 +76,7 @@ function countryCardMarkup(result) {
     .map(({ flags, name, capital, population, languages }) => {
       languages = Object.values(languages).join(', ');
       return `
-            <img src="${flags.svg}" alt="${name}" width="320" height="auto">
+            <img src="${flags.svg}" alt="${name}" width="220" height="auto">
             <p> ${name.official}</p>
             <p>Capital: <span> ${capital}</span></p>
             <p>Population: <span> ${population}</span></p>
